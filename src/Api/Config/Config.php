@@ -304,7 +304,7 @@ abstract class Config
      * @param object|callback $handler The command handler or the callable
      *                                 creating a new command handler on demand.
      *
-     * @return static The current instance.
+     * @return $this The current instance.
      *
      * @see getHandler()
      */
